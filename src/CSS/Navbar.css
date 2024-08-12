@@ -1,0 +1,144 @@
+/* Navbar.css */
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  transition: transform 1s ease;
+  transform: translateY(-100%);
+}
+
+.navbar.visible {
+  transform: translateY(0);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0 15px;
+  border-radius: 10px;
+  padding: 2px 10px;
+  border: 1px solid transparent;
+}
+.navbar li:hover {
+  background-color: #fff86cef;
+  border: 1px solid hsla(0, 0%, 100%, 0.3);
+}
+
+.navbar a {
+  color: black;
+
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* General styling for navbar button */
+.navbar-button {
+  display: none;
+}
+
+/* Side panel styling */
+.side-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #ffd46c;
+  color: black;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  z-index: 1000;
+  overflow: auto;
+}
+
+.side-panel.open {
+  transform: translateX(0);
+}
+
+.side-panel ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  padding-top: 60px; /* Space for the close button */
+}
+
+.side-panel li {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.side-panel a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 36px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 1400px) {
+  .navbar-button {
+    display: block;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #ffd46c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 1001;
+  }
+
+  /* Hide the regular navbar if needed */
+}
+
+@media (min-width: 1401px) {
+  .navbar {
+    display: flex;
+    position: static;
+    height: auto;
+    transform: translateY(0);
+  }
+  .navbar-button {
+    display: none;
+  }
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .navbar li {
+    margin: 0 15px;
+  }
+}
+.loginbtn {
+  background-color: #fff86cef;
+  border: 1px solid hsla(0, 0%, 100%, 0.3);
+}
