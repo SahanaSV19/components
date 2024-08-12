@@ -1,0 +1,13 @@
+Carousel.Item {
+  position: relative !important;
+  bottom: 700px !important;
+}
+img {
+  height: 500px;
+}
+h1 {
+  color: black;
+}
+p {
+  color: black;
+}

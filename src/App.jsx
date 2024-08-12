@@ -1,9 +1,10 @@
 import styles from "./CSS/App.module.css";
-import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import WeatherWidget from "./WeatherWidget";
 import Component from "./Component";
 import FirstConatiner from "./FirstContainer";
+import Slider from "./Slider";
 
 function App() {
   let bodyContainer = document.querySelector("body");
@@ -20,9 +21,11 @@ function App() {
             <FirstConatiner />
             <br />
             <Component />
+            <br />
           </div>
         </div>
       </div>
+      <Slider />
     </div>
   );
 }
