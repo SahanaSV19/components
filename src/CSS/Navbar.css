@@ -116,8 +116,6 @@
     cursor: pointer;
     z-index: 1001;
   }
-
-  /* Hide the regular navbar if needed */
 }
 
 @media (min-width: 1401px) {

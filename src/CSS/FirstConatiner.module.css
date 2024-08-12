@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 20px; */
+  /* border: 2px solid yellowgreen; */
+  padding-bottom: 70px;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+@media (max-width: 1400px) {
+  .logo {
+    font-size: 30px;
+  }
+  .nav {
+    display: none;
+  }
+}
+
+.textH {
+  color: white;
+}
+.textP {
+  color: black;
+}

@@ -1,0 +1,17 @@
+@media (min-width: 1400px) {
+  .contentCont {
+    width: 65%;
+  }
+}
+.leadCont {
+  font-size: 1rem;
+  font-weight: 100;
+}
+.Button {
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 25px;
+  background-color: hsl(0, 5%, 15%);
+  color: white;
+}

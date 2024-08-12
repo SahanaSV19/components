@@ -43,52 +43,9 @@
   /* border: 1px solid #ddd; */
   border-radius: 4px;
 }
-.header {
-  display: flex;
-  justify-content: space-between;
-  /* margin-bottom: 20px; */
-  /* border: 2px solid yellowgreen; */
-  padding-bottom: 70px;
-}
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-}
 
 .nav {
   display: flex;
   justify-content: center;
   gap: 20px;
-}
-.Button {
-  padding: 10px 25px;
-  font-size: 16px;
-  font-weight: 500;
-  border-radius: 25px;
-  background-color: hsl(0, 5%, 15%);
-  color: white;
-}
-@media (max-width: 1400px) {
-  .logo {
-    font-size: 30px;
-  }
-  .nav {
-    display: none;
-  }
-}
-
-@media (min-width: 1400px) {
-  .contentCont {
-    width: 65%;
-  }
-}
-.leadCont {
-  font-size: 1rem;
-  font-weight: 100;
-}
-.textH {
-  color: white;
-}
-.textP {
-  color: black;
 }
