@@ -61,8 +61,8 @@
   right: 0;
   width: 250px;
   height: 100%;
-  background-color: #ffd46c;
-  color: black;
+  background-color: #232d3f;
+  color: white;
   transform: translateX(100%);
   transition: transform 0.3s ease;
   z-index: 1000;
@@ -86,7 +86,7 @@
 }
 
 .side-panel a {
-  color: black;
+  color: white;
   text-decoration: none;
   font-size: 18px;
 }
@@ -95,10 +95,11 @@
   background: none;
   border: none;
   color: white;
+  background-color: #001c30;
   font-size: 36px;
   position: absolute;
   top: 10px;
-  left: 10px;
+  left: 50px;
   cursor: pointer;
 }
 
@@ -109,7 +110,7 @@
     top: 10px;
     right: 10px;
     background-color: #ffd46c;
-    color: white;
+    color: black;
     border: none;
     padding: 10px 15px;
     cursor: pointer;

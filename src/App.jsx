@@ -1,6 +1,7 @@
 import styles from "./CSS/App.module.css";
 import "bootstrap/dist/css/bootstrap.css";
 import Navbar from "./Navbar";
+import WeatherWidget from "./WeatherWidget";
 function App() {
   let bodyContainer = document.querySelector("body");
   bodyContainer.classList.add("first");
@@ -9,7 +10,7 @@ function App() {
       <div className={styles.parentDiv}>
         <div className={styles.innerParent}>
           <div className={styles.weatherWidget}>
-            <h2>Bengaluru Weather</h2>
+            <WeatherWidget />
             <br />
             {/* You can integrate a weather API here for real data */}
           </div>

@@ -25,17 +25,17 @@ const Navbar = () => {
           className="close-button"
           onClick={(handleToggle, handleToggle2)}
         >
-          ×
+          <a href="#">HARRY POTTER</a>
         </button>
         <ul>
           <li>
-            <a href="#home">Tool</a>
+            <a href="#">Tool</a>
           </li>
           <li>
-            <a href="#about">Pricing</a>
+            <a href="#">Pricing</a>
           </li>
           <li>
-            <a href="#services">Support</a>
+            <a href="#">Support</a>
           </li>
           <li>
             <a href="#contact">login</a>
